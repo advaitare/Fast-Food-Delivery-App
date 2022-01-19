@@ -1,0 +1,247 @@
+body{font-family: Georgia, serif;
+
+}
+
+main {
+  min-height: 80vh;
+}
+
+/* Image Card */
+.card {
+  border: solid 1.5px black;
+}
+.product-img {
+ 
+  background-size: contain;
+
+  height: 30vh;
+}
+.product-img img {
+  max-height: 80%;
+  max-width: 80%;
+}
+.product{
+  border:2px solid black;
+  background-color:rgb(228, 248, 242);
+  font-size: large;
+}
+
+
+.nav-link {
+  transition: all 0.2s;
+}
+
+/* Responsive */
+html {
+  /* 1rem= 18px*/
+  font-size: 100%;
+}
+/* bigphone */
+@media screen and (max-width: 600px) {
+  html {
+    font-size: 66%;
+  }
+  .title {
+    font-size: 25px;
+  }
+  .card-container {
+    display: block;
+  }
+  .card {
+    width: 60vw;
+    left: 17.5vw;
+  }
+}
+
+.carousel-item-next,
+.carousel-item-prev,
+.carousel-item.active {
+  display: flex;
+}
+.carousel-caption {
+  position: absolute;
+  top: 0;
+}
+
+.carousel-caption h2 {
+  color: #fff;
+}
+
+.carousel img {
+  height: 300px;
+  padding: 30px;
+  margin: 40px;
+
+  margin-left: auto;
+  margin-right: auto;
+}
+.carousel a {
+  margin: 0 auto;
+}
+@media (max-width: 900px) {
+  .carousel-caption h2 {
+    font-size: 2.5vw;
+  }
+}
+.carousel{
+  background-color: rgb(25, 73, 73)  ;
+  border-radius: 0.4rem;
+  height: 100%;
+  width: 100%;
+  color: white
+}
+
+.feedback{
+  margin-top: 4rem;
+ 
+  padding:0
+}
+
+.footer{
+  height: 70px;
+  padding-top: 1rem;
+ background-color:rgb(25, 73, 73);
+ border:2px solid black;
+ font-size:large;
+ color:white
+  
+
+}
+
+.feedbackDetails{
+  font-size:larger;
+  padding-top:40%;
+  padding-left:30px;
+  padding-right: 30px;
+  color:white;
+}
+
+.whyUs{
+  border:4px solid black;
+  border-radius:0.3rem;
+  padding:20px;
+  font-weight: bold;
+}
+
+.order{
+  background-color:rgb(228, 248, 242)
+}
+.bg-g{
+  background-color:rgb(228, 248, 242)
+}
+.bg-dg{
+  background-color:rgb(25, 73, 73);
+
+}
+
+.borderStyle{
+  border:2px solid black;
+  border-radius:0.2rem
+}
+.f-white{
+  color:white
+}
+.f-black{
+  color:black
+}
+
+.items{
+
+  padding:30px;
+  width:100%;
+}
+
+.items td,tr{
+  border:1px solid black;
+}
+
+.product-img{
+  width:100%;
+  height:80%;
+}
+.styled-table {
+  border-collapse: collapse;
+  margin: 25px 0;
+  font-size: 0.9em;
+  font-family: sans-serif;
+  min-width: 400px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+  border-radius: 0.2rem
+}
+.styled-table thead tr {
+  background-color: #009879;
+  color: #ffffff;
+  text-align: left;
+}
+.styled-table th,
+.styled-table td {
+    padding: 12px 15px;
+}
+.styled-table tbody tr {
+  border-bottom: 1px solid #dddddd;
+}
+
+.styled-table tbody tr:nth-of-type(even) {
+  background-color: #f3f3f3;
+}
+
+.styled-table tbody tr:last-of-type {
+  border-bottom: 2px solid #009879;
+}
+.styled-table tbody tr.active-row {
+  font-weight: bold;
+  color: #009879;
+}
+
+.accordion-button{
+  background-color:rgb(228, 248, 242)
+
+}
+.order_products{
+  font-size: large;
+}
+
+
+.bottom-right {
+  position: absolute;
+  bottom: 50px;
+  right: 26px;
+}
+
+.about_container {
+  position: relative;
+  text-align: center;
+  color: black;
+}
+
+.card1 {
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  width: 100%;
+  border-radius: 5px;
+  float: left;
+  margin-right: 5px;
+}
+
+.img_abt {
+  border-radius: 5px 5px 0 0;
+  border :1px solid black;
+}
+.container1 {
+  padding: 2px 16px;
+}
+.card2 {
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  width: 100%;
+   
+  border-radius: 5px;
+  float: left;
+  margin-right: 5px;
+}
+.card3 {
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  width: 100%;
+  border-radius: 5px;
+  float: left;
+}
+
+
